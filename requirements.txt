@@ -6,4 +6,5 @@ undetected-chromedriver
 torrequest
 python-telegram-bot
 discord-webhook
+aiohttp==3.9.5
 scikit-learn
