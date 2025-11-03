@@ -1,0 +1,9 @@
+discord.py
+requests
+beautifulsoup4
+selenium
+undetected-chromedriver
+torrequest
+python-telegram-bot
+discord-webhook
+scikit-learn
