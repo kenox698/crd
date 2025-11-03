@@ -1,9 +1,9 @@
 discord.py
 requests
 beautifulsoup4
-undetected-chromedriver
+selenium
+webdriver-manager
 discord-webhook
 openai
 scikit-learn
 numpy
-selenium
