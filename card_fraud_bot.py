@@ -12,7 +12,7 @@ import sklearn  # na ML predict
 from discord_webhook import DiscordWebhook, DiscordEmbed
 import time
 import os
-#import asyncio
+import asyncio
 asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
 
 # CONFIG KURWA
@@ -104,3 +104,4 @@ async def start_fraud(ctx):
 
 
 bot.run("TWÓJ_DISCORD_BOT_TOKEN")  # z developers portal
+
