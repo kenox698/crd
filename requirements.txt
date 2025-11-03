@@ -4,4 +4,6 @@ beautifulsoup4
 selenium
 webdriver-manager
 discord-webhook
-PySocks
+openai
+scikit-learn
+numpy
